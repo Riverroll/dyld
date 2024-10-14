@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'PixelFont';
+  src: url('/path/to/pixel-font.woff2') format('woff2');
+}
+
+.font-pixel {
+  font-family: 'PixelFont', monospace;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

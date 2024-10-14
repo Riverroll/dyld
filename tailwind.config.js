@@ -10,7 +10,7 @@ module.exports = {
         },
         animation: {
           'wave': 'wave 10s linear infinite',
-          'ship-bounce': 'shipBounce 10s linear infinite',
+          'ship-bounce': 'shipBounce 45s linear infinite',
           'cloud-loop': 'cloudLoop 60s linear infinite',
         },
         keyframes: {
